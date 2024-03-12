@@ -91,7 +91,7 @@ def ask_question(
     df,
     model="gpt-3.5-turbo",
     question="",
-    max_len=1800,
+    max_len=8000,
     size="ada",
     debug=False,
     max_tokens=150,
