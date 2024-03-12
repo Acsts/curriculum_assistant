@@ -1,0 +1,137 @@
+{
+	"Candidat":
+	{
+		"Prénom": "Antoine",
+		"Nom": "Costes",
+		"Profil": "Ingénieur, Data Scientist",
+		"Contact":
+		{
+			"Mail": "antoine.costes1@gmail.com",
+			"Linkedin": "https://www.linkedin.com/in/antoine-costes1/",
+			"Téléphone": "+336.33.74.91.36",
+			"Github": "https://github.com/Acsts"
+		},
+
+		"Formation":
+		[
+			{
+				"Etablissement": "Ecole 42 Paris",
+				"Compétences": "Informatique / Réseau",
+				"Titre / Diplôme obtenu": "",
+				"Dates": "Nov. 2022 - Aujourd'hui"
+			},
+			{
+				"Etablissement": "Jedha Bootcamp",
+				"Compétences": "Data Science & Eng.",
+				"Titre / Diplôme obtenu": "Certification RNCP equiv. Bac+4",
+				"Dates": "Jan. - Mai 2022"
+			},
+			{
+				"Etablissement": "INSA Rennes",
+				"Compétences": "Diplôme d'ingénieur",
+				"Titre / Diplôme obtenu": "Génie Méca. et Automatique (Bac+5)",
+				"Dates": "2007-2012"
+			}
+		],
+
+		"Outils / Langages":
+		{
+			"Langages de programmation":
+			{
+				"principaux":["Python (pandas, numpy, scikit-klearn, matplotlib, plotly, seaborn, scrapy, spacy, tensorflow keras, pyspark)", "SQL", "Neo4j - Cypher", "C", "C++"],
+				"notions complémentaires": ["Typescript", "Java", "Scala"]
+			},
+			"Cloud computing": ["AWS (S3, RDS, Redshift, EC2)", "Databricks", "GCP (BigQuery, CloudStorage)"],
+			"Déploiement - Collaboration": ["Linux", "Docker", "Kubernetes", "MLFlow", "Streamlit", "Airflow", "Ray", "Kafka", "Airbyte", "FastAPI", "Heroku", "Git"]
+		},
+
+		"Langues":["Anglais courant", "Espagnol courant"],
+
+		"Expériences professionnelles":
+		[
+			{
+				"Catégorie": "Data Science & Engineering",
+				"Entreprise": "Bonx, l'ERP no-code Français",
+				"Poste occupé": "Data Engineer - Operations & Deployment (Freelance)",
+				"Détails": ["Mise en place / Evolution de schémas de données en BDD graphe (Neo4j)", "Développement de requêtes complexes en support des clients"],
+				"Dates": "Déc. 2023 - Aujourd'hui"
+			},
+			{
+				"Catégorie": "Data Science & Engineering",
+				"Entreprise": "Jedha Bootcamp",
+				"Poste occupé": "Enseignement - Teacher (Freelance)",
+				"Dates": "Aout 2023 - Aujourd'hui"
+			},
+			{
+				"Catégorie": "Data Science & Engineering",
+				"Entreprise": "Jedha Bootcamp",
+				"Poste occupé": "Enseignement - Teaching Assistant (Freelance)",
+				"Dates": "Mai 2022 - Juillet 2023"
+			},
+			{
+				"Catégorie": "Gestion de projet",
+				"Entreprise": "Safran Electronics & Defense Cockpit Solutions (ex-Zodiac) - Montreuil",
+				"Poste occupé": "Chef de projet produit - Direction Technique",
+				"Détails": ["Développement de produits mécatroniques (panneaux cockpit / éclairage)", "Pilotage d’équipes techniques pluridisciplinaires (7 ETP/200k€ par projet)"],
+				"Dates": "Jan. 2021 - Jan. 2022"
+			},
+			{
+				"Catégorie": "Gestion de projet",
+				"Entreprise": "Safran Electronics & Defense Cockpit Solutions (ex-Zodiac) - Montreuil",
+				"Poste occupé": "Chef de projet design mécanique - Bureau d’Etudes (Dir. Technique)",
+				"Détails": ["Design mécanique d’un panneau de cockpit modulaire pour hélicoptère", "Pilotage d’une équipe de concepteurs (jusqu’à 10 ETP, budget 1M€)"],
+				"Dates": "Sept. 2017 - Dec. 2020"
+			},
+			{
+				"Catégorie": "Gestion de projet",
+				"Entreprise": "Safran Electronics & Defense Cockpit Solutions (ex-Zodiac) - Montreuil",
+				"Poste occupé": "Consultant chef de projet - Prestation via ALTEN",
+				"Détails": ["Pilotage transverse du développement d’un actionneur mécanique", "Coordination équipes design, achats, indus et qualité (5 ETP, budget 80k€)"],
+				"Dates": "Sept. 2015 - Août 2017"
+			},
+			{
+				"Catégorie": "Conception mécanique - Gestion de projet",
+				"Entreprise": "ALTEN pour Safran Electronics & Defense (ex-SAGEM DS) - Mantes",
+				"Poste occupé": "Responsable de plateau",
+				"Détails": ["Transfert de prod. France -> Maroc de bancs d’essais d’actionneurs de vol", "Pilotage d’une équipe projet interne ALTEN (8 à 11 ingénieurs) au forfait"],
+				"Dates": "Dec. 2014 - Août 2015"
+			},
+			{
+				"Catégorie": "Conception mécanique - Gestion de projet",
+				"Entreprise": "ALTEN pour Safran Electronics & Defense (ex-SAGEM DS) - Mantes",
+				"Poste occupé": "Concepteur mécanique - Référent technique",
+				"Détails": ["Conception et validation de bancs de tests pour équipements avionnés"],
+				"Dates": "Oct. 2012 - Nov. 2014"
+			}
+		],
+
+		"Projets Personnels":
+		[
+			{
+				"Projet": "DeepChef App : Proposition de recettes à partir de photos d’ingrédients",
+				"Détails": ["Détection par Deep Learning (Fine Tuning de YoloV5s)", "Déploiement d’une API de détection et de l’application web sous Streamlit"]
+			},
+			{
+				"Projet": "Déploiement de webapps d’analyse de locations GetAround",
+				"Détails": ["Web dashboard d’analyse et de simulations de retards au checkout", "API de prédiction de prix de location + serveur de tracking MLFlow"]
+			},
+			{
+				"Projet": "Clustering de zones / horaires de forte demande de courses Uber à NYC",
+				"Détails": ["Identification par DBSCAN des clusters par jour de la semaine et par heure", "Visualisations interactives sur cartes avec Plotly Graph Objects"]
+			},
+			{
+				"Projet": "Deep Learning - Classification de tweets : «disaster-related» ou non",
+				"Détails": ["NLP et Réseaux de Neurones Récurrents (SimpleRNN, GRU, LSTM)"]
+			},
+			{
+				"Projet": "Dashboard de recommandation de destinations de voyage par web scraping"
+			},
+			{
+				"Projet": "Data Visualization et analyse d’une expérience de Speed Dating"
+			}
+
+		]
+	}
+}
+
+
